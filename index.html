@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>AIML Engineering Portfolio</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 p-4 text-white">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div>
+                    <span class="font-bold text-xl">Sonal Panda</span>
+                </div>
+                <div>
+                    <ul class="flex space-x-4">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white h-screen flex flex-col justify-center items-center">
+        <h1 class="text-4xl font-bold">Computer Science Engineering Student with AIML specialization</h1>
+        <p class="text-lg mt-2">Passionate about Artificial Intelligence and Machine Learning.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p>
+            I am a second-year AIML engineering student at SRMIST with a strong interest in developing intelligent systems. I Coding has been my 
+            ultimate love Since childhood. Apart from coding I love music, exploring places, reading fiction, traditional painting and a die hard animal lover.
+            I love to explore the entends of my potentional and what I can do.
+        </p>
+        <p> Proficient in Python, Java, C, C++, HTML CSS JS </p>
+       
+
+        
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <!-- Add your projects here -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                    <p>Heathcare companion- Symptocare</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                    <p>Turing Machine</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                    <p>Command Shell in Python</p>
+                </div>
+
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+        <p>
+            Feel free to reach out to me for any work related purpose. You can contact me via email at <a
+                href="mailto:sp9203@srmist.edu.in">sp9203@srmist.edu.in</a>.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Sonal Panda. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Projects Section -->
+<section id="projects" class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2">Heathcare companion- Symptocare</h3>
+                <p>
+                    This website is your health- friendly companion. You can feed in your symptoms and it will predict a disease for you.
+                    You can book an appointment to the required doctor and make additonal changes. 
+                </p>
+                <p class="mt-4"><strong>Skills:</strong> Java, Swing, MYSQL</p>
+                <p class="mt-4"><strong>Link:</strong> <a href="#">Project 1 Link</a></p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2">Turing Machine</h3>
+                <p>
+                    This evaluates on tapes data and gives you required output of evaluation and transition.
+                </p>
+                <p class="mt-4"><strong>Skills:</strong> Java</p>
+                <p class="mt-4"><strong>Link:</strong> <a href="#">Project 2 Link</a></p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-2">Command Shell in Python.</h3>
+                <p>
+                    This is a modified command shell that is made in python language to overcome the limitation of a normal command shell.
+                    This also gives an user-friendly system.
+                </p>
+                <p class="mt-4"><strong>Skills:</strong> Python, inbuilt libraries</p>
+                <p class="mt-4"><strong>Link:</strong> <a href="#">Project 3 Link</a></p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="container mx-auto my-8">
+    <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+    <p>
+        Feel free to reach out to me. You can contact me via email at <a
+            href="mailto:sp9203@srmist.edu.in">your.sp9203@srmist.edu.in.com</a>.
+    </p>
+
+    <!-- Contact Form -->
+    <form id="contact-form" class="mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+        </div>
+        <div class="mt-6">
+            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+            <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md"></textarea>
+        </div>
+        <div class="mt-6">
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md">Send Message</button>
+        </div>
+        <p id="form-error" class="mt-4 text-red-500"></p>
+    </form>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Column 1 -->
+        <div>
+            <h3 class="text-lg font-bold mb-2">About Me</h3>
+            <p>Programmer(proficiency at Python , JAVA, C++ , C ,HTML-CSS,JS), Explorer, Fiction Lover,Painter & Music Enthusiast.</p>
+        </div>
+        <!-- Column 2 -->
+        <div>
+            <h3 class="text-lg font-bold mb-2">Contact Information</h3>
+            <p>Email: <a href="mailto:sp9203@srmist.edu.in">sp9203@srmist.edu.in</a></p>
+            <p>Phone: 8260032040</p>
+        </div>
+        <!-- Column 3 -->
+        <div>
+            <h3 class="text-lg font-bold mb-2">Follow Me</h3>
+            <p>Connect with me on social media:</p>
+            <!-- Add social media icons/links as needed -->
+            <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i> Twitter</a><br>
+            <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Optional: Add your custom JavaScript here -->
+<!-- Include the JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+
+</html>
